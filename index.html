@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="container">
+        <div class="title">
+            <h1>Convert text in the way you want</h1>
+        </div>
+        
+        <div class="button-container">
+            <form>
+                <label for="modify">Choose operation:</label>
+                <select id="modify">
+                  <option class="select" value="select any one..">select any one..</option>
+                  <option class="to-lowercase" value="to lowercase">to lowercase</option>
+                  <option class="to-uppercase" value="to uppercase">to uppercase</option>
+                  <option class="to-uppercase" value="binary to decimal">binary to decimal</option>
+                  <option class="to-uppercase" value="decimal to binary">decimal to binary</option>
+
+                  <option class="to-binary" value="string to binary">string to binary</option>
+                  <option class="to-string" value="binary to string">binary to string</option>
+                  <option class="remove-spaces" value="remove spaces">remove spaces</option>
+                  <option class="reverse-text" value="reverse text">reverse text</option>
+                  <option class="change-font" value="change font">change font</option>
+                </select>
+              </form>
+        </div>
+        <div class="input-output-area">
+            <textarea id="user-input" cols="50" rows="15" placeholder="Enter your input here.."></textarea>
+            <textarea id="user-output" cols="50" rows="15" placeholder="You will get output here."></textarea>
+        </div>
+
+        <div class="convert-btn-container">
+            <button class="convert-btn">Convert</button>
+        </div>
+        
+    </div>
+    
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
